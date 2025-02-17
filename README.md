@@ -31,7 +31,7 @@
 </p>
 <p>
   🔗 <b>Reach out at</b>: <br/>
-  <b><a href="arshadrafi566@gmail.com">Email: </>contact@arshad.com</a></p><br/>
+  <b><a href="arshadrafi566@gmail.com">Email: </>arshadrafi566@gmail.com</a></p><br/>
 
 <!--START_SECTION:waka-->
 
