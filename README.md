@@ -11,7 +11,7 @@ Welcome to my GitHub profile! I'm a **Computer Science student** with a passion 
 - 💡 Passionate about **C++, Web Development, and Cybersecurity**
 - 📚 Exploring **Physics, Mathematics, and Programming**
 - ⚡ Fun Fact: I enjoy **philosophy and deep discussions**
-- 🏢 Member of **https://github.com/Syntaxtrail/trail_ai/tree/main**
+- 🏢 Member of **https://github.com/Syntaxtrail**
 ---
 
 ## 🛠️ Tech Stack
