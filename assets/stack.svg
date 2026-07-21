@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack — agentic workflow, security, geospatial, mobile, systems">
+  <style>
+    :root { --panel:#111318; --line:#2a2d33; --ink:#dde1e6; --dim:#6f7580; --signal:#b0552e; }
+    .mono{font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace;}
+    .rise{opacity:0;animation:rise .55s cubic-bezier(.2,.7,.2,1) forwards;}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+    .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.24s}.d4{animation-delay:.33s}.d5{animation-delay:.42s}.d6{animation-delay:.51s}
+    @media (prefers-reduced-motion:reduce){.rise{animation:none;opacity:1}}
+  </style>
+
+  <rect x="1" y="1" width="998" height="238" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+  <path d="M1 17 V1 H17" stroke="var(--dim)" fill="none"/>
+  <path d="M983 1 H999 V17" stroke="var(--dim)" fill="none"/>
+  <path d="M999 223 V239 H983" stroke="var(--dim)" fill="none"/>
+  <path d="M17 239 H1 V223" stroke="var(--dim)" fill="none"/>
+
+  <g class="rise d1">
+    <rect x="32" y="27" width="9" height="9" fill="var(--signal)"/>
+    <text class="mono" x="52" y="36" font-size="11" letter-spacing="3" fill="var(--ink)">STACK</text>
+    <line x1="112" y1="31" x2="928" y2="31" stroke="var(--line)"/>
+    <text class="mono" x="960" y="36" font-size="10" letter-spacing="1.5" fill="var(--dim)" text-anchor="end">~/stack</text>
+  </g>
+
+  <line x1="180" y1="60" x2="180" y2="216" stroke="var(--line)" opacity=".4"/>
+
+  <g class="rise d2">
+    <text class="mono" x="40"  y="82"  font-size="11" letter-spacing="2" fill="var(--dim)">AGENTIC</text>
+    <text class="mono" x="190" y="82"  font-size="14" fill="var(--ink)">Gemini CLI · Codex CLI · Claude · Google ADK 2.0</text>
+  </g>
+  <g class="rise d3">
+    <text class="mono" x="40"  y="114" font-size="11" letter-spacing="2" fill="var(--dim)">SECURITY</text>
+    <text class="mono" x="190" y="114" font-size="14" fill="var(--ink)">OSV.dev vulnerability scanning · AST-based usage analysis</text>
+  </g>
+  <g class="rise d4">
+    <text class="mono" x="40"  y="146" font-size="11" letter-spacing="2" fill="var(--dim)">GEOSPATIAL</text>
+    <text class="mono" x="190" y="146" font-size="14" fill="var(--ink)">SGP4 orbital propagation · globe.gl · live flight &amp; AIS tracking</text>
+  </g>
+  <g class="rise d5">
+    <text class="mono" x="40"  y="178" font-size="11" letter-spacing="2" fill="var(--dim)">MOBILE</text>
+    <text class="mono" x="190" y="178" font-size="14" fill="var(--ink)">Shizuku (no-root) · WireGuard VPN</text>
+  </g>
+  <g class="rise d6">
+    <text class="mono" x="40"  y="210" font-size="11" letter-spacing="2" fill="var(--dim)">SYSTEMS</text>
+    <text class="mono" x="190" y="210" font-size="14" fill="var(--ink)">WebSocket streaming · SSE · OCR fallback · microservices</text>
+  </g>
+</svg>

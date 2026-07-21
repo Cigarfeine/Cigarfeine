@@ -1,0 +1,81 @@
+<svg viewBox="0 0 1000 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System architecture — KAGE, Sentinel, Phantom, Mnemosyne mapping toward Medusa">
+  <style>
+    :root { --panel:#111318; --node:#171a20; --line:#2a2d33; --ink:#dde1e6; --dim:#6f7580; --signal:#b0552e; }
+    .mono{font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace;}
+    .rise{opacity:0;animation:rise .55s cubic-bezier(.2,.7,.2,1) forwards;}
+    @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    .d1{animation-delay:.05s}.d2{animation-delay:.16s}.d3{animation-delay:.28s}.d4{animation-delay:.4s}.d5{animation-delay:.52s}.d6{animation-delay:.64s}
+    @media (prefers-reduced-motion:reduce){.rise{animation:none;opacity:1}}
+  </style>
+
+  <rect x="1" y="1" width="998" height="518" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+  <path d="M1 17 V1 H17" stroke="var(--dim)" fill="none"/>
+  <path d="M983 1 H999 V17" stroke="var(--dim)" fill="none"/>
+  <path d="M999 503 V519 H983" stroke="var(--dim)" fill="none"/>
+  <path d="M17 519 H1 V503" stroke="var(--dim)" fill="none"/>
+
+  <g class="rise d1">
+    <rect x="32" y="27" width="9" height="9" fill="var(--signal)"/>
+    <text class="mono" x="52" y="36" font-size="11" letter-spacing="3" fill="var(--ink)">SYSTEM ARCHITECTURE</text>
+    <line x1="256" y1="31" x2="838" y2="31" stroke="var(--line)"/>
+    <text class="mono" x="960" y="36" font-size="10" letter-spacing="1.5" fill="var(--dim)" text-anchor="end">4 TOOLS → 1 FRAMEWORK</text>
+  </g>
+
+  <!-- connecting lines -->
+  <g class="rise d2" stroke="var(--line)" stroke-width="1">
+    <line x1="300" y1="170" x2="370" y2="225"/>
+    <line x1="700" y1="170" x2="630" y2="225"/>
+    <line x1="300" y1="390" x2="370" y2="315"/>
+    <line x1="700" y1="390" x2="630" y2="315"/>
+  </g>
+
+  <!-- KAGE -->
+  <g class="rise d3">
+    <rect x="100" y="110" width="200" height="60" rx="2" fill="var(--node)" stroke="var(--line)"/>
+    <line x1="100" y1="110" x2="100" y2="170" stroke="var(--signal)" stroke-width="2"/>
+    <text class="mono" x="200" y="134" font-size="13" letter-spacing="1.5" fill="var(--ink)" text-anchor="middle">KAGE</text>
+    <text class="mono" x="200" y="151" font-size="9.5" fill="var(--dim)" text-anchor="middle">security triage · ADK 2.0</text>
+    <text class="mono" x="290" y="165" font-size="8.5" letter-spacing="1" fill="var(--signal)" text-anchor="end">SUBMITTED</text>
+  </g>
+
+  <!-- SENTINEL -->
+  <g class="rise d3">
+    <rect x="700" y="110" width="200" height="60" rx="2" fill="var(--node)" stroke="var(--line)"/>
+    <line x1="900" y1="110" x2="900" y2="170" stroke="var(--signal)" stroke-width="2"/>
+    <text class="mono" x="800" y="134" font-size="13" letter-spacing="1.5" fill="var(--ink)" text-anchor="middle">PROJECT SENTINEL</text>
+    <text class="mono" x="800" y="151" font-size="9.5" fill="var(--dim)" text-anchor="middle">geospatial OSINT dashboard</text>
+    <text class="mono" x="890" y="165" font-size="8.5" letter-spacing="1" fill="var(--signal)" text-anchor="end">ACTIVE</text>
+  </g>
+
+  <!-- PHANTOM -->
+  <g class="rise d4">
+    <rect x="100" y="390" width="200" height="60" rx="2" fill="var(--node)" stroke="var(--line)"/>
+    <line x1="100" y1="390" x2="100" y2="450" stroke="var(--signal)" stroke-width="2"/>
+    <text class="mono" x="200" y="414" font-size="13" letter-spacing="1.5" fill="var(--ink)" text-anchor="middle">PHANTOM</text>
+    <text class="mono" x="200" y="431" font-size="9.5" fill="var(--dim)" text-anchor="middle">no-root tactical intel</text>
+    <text class="mono" x="290" y="445" font-size="8.5" letter-spacing="1" fill="var(--signal)" text-anchor="end">ARCHITECTED</text>
+  </g>
+
+  <!-- MNEMOSYNE -->
+  <g class="rise d4">
+    <rect x="700" y="390" width="200" height="60" rx="2" fill="var(--node)" stroke="var(--line)"/>
+    <line x1="900" y1="390" x2="900" y2="450" stroke="var(--signal)" stroke-width="2"/>
+    <text class="mono" x="800" y="414" font-size="13" letter-spacing="1.5" fill="var(--ink)" text-anchor="middle">MNEMOSYNE</text>
+    <text class="mono" x="800" y="431" font-size="9.5" fill="var(--dim)" text-anchor="middle">AI learning · PYQ-weighted</text>
+    <text class="mono" x="890" y="445" font-size="8.5" letter-spacing="1" fill="var(--signal)" text-anchor="end">ACTIVE</text>
+  </g>
+
+  <!-- MEDUSA core -->
+  <g class="rise d5">
+    <rect x="370" y="225" width="260" height="90" rx="2" fill="var(--node)" stroke="var(--signal)" stroke-width="1.4"/>
+    <text class="mono" x="500" y="255" font-size="16" letter-spacing="2.5" fill="var(--ink)" text-anchor="middle">MEDUSA</text>
+    <text class="mono" x="500" y="274" font-size="10" fill="var(--dim)" text-anchor="middle">civil-society accountability</text>
+    <text class="mono" x="500" y="288" font-size="9" fill="var(--dim)" text-anchor="middle">environmental crime detection · Kerala</text>
+    <text class="mono" x="500" y="306" font-size="9" letter-spacing="1.5" fill="var(--signal)" text-anchor="middle">CONCEPT — SCHEMA STAGE</text>
+  </g>
+
+  <line class="rise d6" x1="40" y1="485" x2="960" y2="485" stroke="var(--line)" opacity=".7"/>
+  <g class="rise d6">
+    <text class="mono" x="40" y="504" font-size="10.5" letter-spacing="1.5" fill="var(--dim)">MEDUSA maps the other four into one civil-accountability framework — full write-ups at arshadrafi.dev</text>
+  </g>
+</svg>
