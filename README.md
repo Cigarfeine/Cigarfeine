@@ -17,9 +17,6 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Cigarfeine&show_icons=true&hide_border=true&bg_color=111318&title_color=dde1e6&text_color=6f7580&icon_color=b0552e&border_radius=4" width="49%" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cigarfeine&layout=compact&hide_border=true&bg_color=111318&title_color=dde1e6&text_color=6f7580&border_radius=4" width="49%" alt="Top languages"/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cigarfeine&bg_color=111318&color=dde1e6&line=b0552e&point=dde1e6&area_color=b0552e&area=true&hide_border=true&radius=4&custom_title=CONTRIBUTION%20LOG" width="100%" alt="Contribution graph"/>
 
 </div>
