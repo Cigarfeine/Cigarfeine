@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arshad Rafi — AI, cybersecurity and scalable systems">
+  <style>
+    :root {
+      --panel:#111318; --line:#2a2d33; --ink:#dde1e6; --dim:#6f7580; --signal:#b0552e;
+    }
+    .mono{font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace;}
+    .serif{font-family:Georgia,Cambria,"Times New Roman",serif;}
+    .rise{opacity:0;animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards;}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+    .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.28s}.d4{animation-delay:.4s}.d5{animation-delay:.5s}
+    @media (prefers-reduced-motion:reduce){.rise{animation:none;opacity:1}}
+  </style>
+
+  <rect x="1" y="1" width="998" height="298" rx="4" fill="var(--panel)" stroke="var(--line)"/>
+  <path d="M1 17 V1 H17" stroke="var(--dim)" fill="none"/>
+  <path d="M983 1 H999 V17" stroke="var(--dim)" fill="none"/>
+  <path d="M999 283 V299 H983" stroke="var(--dim)" fill="none"/>
+  <path d="M17 299 H1 V283" stroke="var(--dim)" fill="none"/>
+
+  <g class="rise d1">
+    <text class="mono" x="40" y="42" font-size="10.5" letter-spacing="3" fill="var(--dim)">SUBJECT PROFILE — OPEN</text>
+    <text class="mono" x="960" y="42" font-size="10.5" letter-spacing="3" fill="var(--dim)" text-anchor="end">KOTHAMANGALAM, KERALA</text>
+  </g>
+  <line x1="40" y1="56" x2="960" y2="56" stroke="var(--line)"/>
+
+  <g class="rise d2">
+    <text class="serif" x="40" y="150" font-size="64" fill="var(--ink)">Arshad Rafi</text>
+  </g>
+  <g class="rise d3">
+    <text class="mono" x="41" y="180" font-size="15" letter-spacing="1" fill="var(--dim)">@Cigarfeine — AI · Cybersecurity · Scalable Systems</text>
+  </g>
+
+  <g class="rise d4">
+    <text class="mono" x="40" y="220" font-size="12" letter-spacing="1" fill="var(--dim)">focus ▸</text>
+    <text class="mono" x="108" y="220" font-size="12" letter-spacing="1" fill="var(--signal)">multi-agent dev workflows · security tooling · geospatial intelligence</text>
+  </g>
+  <g class="rise d4">
+    <text class="mono" x="40" y="244" font-size="12" letter-spacing="1" fill="var(--dim)">BCA Honours · MBITS, Kothamangalam · IEEE member</text>
+  </g>
+
+  <line x1="40" y1="266" x2="960" y2="266" stroke="var(--line)"/>
+  <g class="rise d5">
+    <text class="mono" x="40" y="286" font-size="10.5" letter-spacing="2.5" fill="var(--dim)">AI SYSTEMS</text>
+    <text class="mono" x="164" y="286" font-size="10.5" fill="var(--signal)">·</text>
+    <text class="mono" x="182" y="286" font-size="10.5" letter-spacing="2.5" fill="var(--dim)">SECURITY TOOLING</text>
+    <text class="mono" x="360" y="286" font-size="10.5" fill="var(--signal)">·</text>
+    <text class="mono" x="378" y="286" font-size="10.5" letter-spacing="2.5" fill="var(--dim)">OSINT / GEOSPATIAL</text>
+    <text class="mono" x="960" y="286" font-size="10.5" letter-spacing="2.5" fill="var(--dim)" text-anchor="end">STATUS: BUILDING</text>
+  </g>
+</svg>
