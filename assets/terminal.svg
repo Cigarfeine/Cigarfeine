@@ -1,0 +1,27 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arshad Rafi — terminal profile">
+  <style>
+    .mono{font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace;}
+    .cursor{animation:blink 1.1s steps(1) infinite;}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.cursor{animation:none}}
+  </style>
+
+  <rect x="0.5" y="0.5" width="799" height="399" fill="#000000" stroke="#262626"/>
+  <text class="mono" x="20" y="26" font-size="12" fill="#4d4d4d">zsh — arshad@cigarfeine</text>
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#1a1a1a"/>
+
+  <text class="mono" x="20" y="70" font-size="15"><tspan fill="#7d8590">arshad@cigarfeine</tspan><tspan fill="#4d4d4d">:~$</tspan> <tspan fill="#f0f0f0">whoami</tspan></text>
+  <text class="mono" x="20" y="96"  font-size="15" fill="#e6e6e6">Arshad Rafi</text>
+  <text class="mono" x="20" y="122" font-size="15" fill="#c9d1d9">BCA Honours · AI, Cybersecurity, Scalable Systems</text>
+  <text class="mono" x="20" y="148" font-size="15" fill="#c9d1d9">Kerala, India</text>
+
+  <text class="mono" x="20" y="188" font-size="15"><tspan fill="#7d8590">arshad@cigarfeine</tspan><tspan fill="#4d4d4d">:~$</tspan> <tspan fill="#f0f0f0">ls projects/</tspan></text>
+  <text class="mono" x="20" y="214" font-size="15" fill="#c9d1d9">KAGE-AGENT    MNEMOSYNE</text>
+
+  <text class="mono" x="20" y="254" font-size="15"><tspan fill="#7d8590">arshad@cigarfeine</tspan><tspan fill="#4d4d4d">:~$</tspan> <tspan fill="#f0f0f0">cat stack.txt</tspan></text>
+  <text class="mono" x="20" y="280" font-size="15" fill="#c9d1d9">Gemini CLI, Codex CLI, Claude</text>
+  <text class="mono" x="20" y="306" font-size="15" fill="#c9d1d9">Python · TypeScript · WSL2 + Zsh</text>
+
+  <text class="mono" x="20" y="346" font-size="15"><tspan fill="#7d8590">arshad@cigarfeine</tspan><tspan fill="#4d4d4d">:~$</tspan></text>
+  <rect class="cursor" x="222" y="334" width="9" height="16" fill="#e6e6e6"/>
+</svg>
